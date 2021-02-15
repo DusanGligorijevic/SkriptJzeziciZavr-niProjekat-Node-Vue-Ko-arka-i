@@ -1,5 +1,5 @@
 const express= require('express');
-const kosarkasi = require('./routes/Kosarkasi.js');
+const kosarkasi = require('./routes/node.js');
 
 const app =express();
 app.use('/api', kosarkasi);
